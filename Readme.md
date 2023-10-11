@@ -31,7 +31,7 @@ Step 2
 Code: urls.py
 
 
-                from django.conf.urls import url
+                from django.urls import re_path as url
                 from django.conf import settings
                 from django.views.static import serve
 
